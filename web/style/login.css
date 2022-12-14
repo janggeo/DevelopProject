@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    align-content: center;
+    text-align: center;
+    text-align-all: center;
+    object-position: center;
+}
+.container {
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+}
+.jumbotron .container {
+    max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+    }
+
+    .col-lg-4 {
+        width: 33.33333333%;
+    }
+
+    .jumbotron {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        color: inherit;
+        background-color: #eee;
+    }
+
+    .jumbotron h1,
+    .jumbotron .h1 {
+        color: inherit;
+    }
+
+    .jumbotron p {
+        margin-bottom: 15px;
+        font-size: 21px;
+        font-weight: 200;
+    }
+
+    .jumbotron > hr {
+        border-top-color: #d5d5d5;
+    }
+
+    .container .jumbotron,
+    .container-fluid .jumbotron {
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 6px;
+    }
+
+    .jumbotron .container {
+        max-width: 100%;
+    }
+
+    @media screen and (min-width: 768px) {
+        .jumbotron {
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+
+        .container .jumbotron,
+        .container-fluid .jumbotron {
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+
+        .jumbotron h1,
+        .jumbotron .h1 {
+            font-size: 63px;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group-sm .form-control {
+        height: 50px;
+        padding: 5px 10px;
+        font-size: 7em;
+        line-height: 7px;
+        border-radius: 3px;
+    }
+
+    .ƒorm-group-sm select.form-control {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .form-group-sm textarea.form-control,
+    .form-group-sm select[multiple].form-control {
+        height: auto;
+    }
+
+    .form-group-sm .form-control-static {
+        height: 30px;
+        min-height: 32px;
+        padding: 6px 10px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .input-lg {
+        height: 46px;
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 2px;
+        border-radius: 6px;
+    }
+
+    select.input-lg {
+        height: 46px;
+        line-height: 46px;
+    }
+
+    textarea.input-lg,
+    select[multiple].input-lg {
+        height: auto;
+    }
+
+    .form-group-lg .form-control {
+        height: 46px;
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 2px;
+        border-radius: 6px;
+    }
+
+    .form-group-lg select.form-control {
+        height: 46px;
+        line-height: 46px;
+    }
+
+    .form-group-lg textarea.form-control,
+    .form-group-lg select[multiple].form-control {
+        height: auto;
+    }
+
+    .form-group-lg .form-control-static {
+        height: 46px;
+        min-height: 38px;
+        padding: 11px 16px;
+        font-size: 18px;
+        line-height: 1.3333333;
+    }
+
+    input {
+        font-family: 'GmarketSansMedium', serif;
+        height: 50px;
+        font-size: 20px;
+    }
+}

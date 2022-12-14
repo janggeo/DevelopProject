@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*body 초기화*/
+
+body {
+    margin: 20;
+    padding-top: 0;
+    font-family: 'GmarketSansTTFMedium';
+    display: block;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow-x: visible;
+    border-style: none;
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 50;
+
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main-menu > li {
+    float: left;
+    position: center;
+}
+
+#main-menu > li > a {
+    font-family: 'GmarketSansMedium', serif;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 14px 36px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+#main-menu > li:nth-child(1) > a {
+    border-left: 2px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+}
+
+#sub-menu > li {
+    padding: 16px 28px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu > li >  a {
+    font-size: 1.0em;
+    font-family: 'GmarketSansMedium', serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+#main-menu > li:hover #sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+    text-decoration: underline;
+}
